@@ -28,4 +28,30 @@ int main()
     list.Insert(100, 20);
 
     list.PrintConsole();
+
+    std::cout << list.PopBack() << "\n";
+
+    list.PrintConsole();
+
+    std::cout << list.PopFront() << "\n";
+
+    list.PrintConsole();
+
+    std::cout << list.Remove(3) << "\n";
+
+    list.PrintConsole();
+
+    std::cout << list.PeekFront() << "\n";
+    std::cout << list.PeekBack() << "\n";
+    std::cout << list.At(3) << "\n";
+    std::cout << list[3] << "\n";
+
+    list[3] = 200;
+
+    list.PrintConsole();
+
+    list.Clear();
+
+    list.PrintConsole();
+
 }
