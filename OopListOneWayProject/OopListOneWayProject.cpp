@@ -1,8 +1,10 @@
 ﻿#include <iostream>
 #include "List.h"
+#include "Stack.h"
 
 int main()
 {
+    /*
     List<int> list;
     list.PushBack(10);
     list.PushBack(20);
@@ -53,5 +55,12 @@ int main()
     list.Clear();
 
     list.PrintConsole();
+    */
 
+    Stack<int> stack;
+    stack.Push(100);
+    stack.Push(200);
+    stack.Push(300);
+
+    stack.Print();
 }
